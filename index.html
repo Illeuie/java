@@ -21,7 +21,27 @@
 		document.write(" фруктов -  " + count + "<br/>");
 
 		</script>
-		<style>
+	</div>
+	<div class="Dima">
+		<script type="text/JavaScript">
+		var fruits = ["яблоко", " апельсин", " груша", " гранат."];
+		fruits.splice(fruits.length -2,1," ананас");
+		document.write(fruits + "<br/>");
+
+		var fruits = ["банан", " мандарин", " манго."];
+		fruits.splice(fruits.length -2,1," ананас");
+		document.write(fruits + "<br/>");
+
+		var fruits = ["банан", " мандарин", " манго."];
+		var fruits1 = ["яблоко", " апельсин", " груша", " гранат."];
+		var fruits2 = ["ананас", "ківі"];
+
+		var oldFruits = ["кокос", fruits, fruits1, fruits2];
+		document.write("любимий фрукт:" + oldFruits [0]);
+
+		</script>
+	</div>	
+		<style >
 		.Dima{
 			border: 1px solid red;
 			background: #f2f2f2;
@@ -31,6 +51,59 @@
 			color: green;
 		}
 		</style>
+	</div>
+	<div class="Dima">
+		<script type="text/JavaScript">
+		var aplle = "30";
+		if (aplle > 20) {
+			document.write("куплю яблоки"+ "<br/>");
+		}
+		else {
+			document.write("не куплю яблоки" + "<br/>");
+		}
+		var pogoda = "гроза";
+		if (pogoda == "сніг"){
+			document.write("Їдем на лижі" + "<br/>");
+		}
+		else {
+			document.write("Не їдем на лижі" + "<br/>");
+		}
+
+
+
+		var students = ["Абаканов Сергей", "Гагарин Матвей", "Хантухова Лейла", "Алалина Алина",  "Сакуров Иоган"];
+		if (students.length >= 3){
+			document.write("это большой массив, в котором как минимум 3  элемента" + "<br/>");
+		}
+		else {
+			document.write("это маленький массив, в  котором менее 3-х элементов" + "<br/>");
+		}	
+
+
+		var students = ["Дмитрий", "Алексей", "Петр", "Виктор"];
+		if (students.length == 4 && students[3] == "Виктор"){
+			document.write("Этот массив мне подходит" + "<br/>");
+		}	
+		else {
+			document.write("Массив мне Не подходит");
+		}
+
+
+		var color = "красный";
+		if (color == "красный"){
+			document.write("Надо стоять" + "<br/>");
+		}
+		else if (color == "желтый"){
+			document.write("Надо приготовиться");
+		}
+		else {
+			document.write("можно идти");
+		}
+
+
+		</script>
+		
+
 	</div>
 </body>
 </html>
