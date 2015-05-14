@@ -102,8 +102,47 @@
 
 
 		</script>
-		
+		</div>
 
+		<div class="Dima">
+		<script type="text/JavaScript">
+
+		students2 = ['Абаканов Сергей', 'Алалина Алина', 'Гагарин Матвей', 'Хантухова Лейла', 'Викторов Сергей',  'Масалкин Андрей', 'Петравкин Алексей', 'Московин Павел', 'Данилов Станислав'];
+		var i = 2;
+		while (i < 7){
+			document.write(students2[i] + "<br/>");
+			i++;
+		}
+
+		for (var i = 3; i < 10; i++ ){
+			document.write("квадрат " + i + " = " + i*3/2 + "<br/>");
+		}
+
+		</script>
+	</div>
+
+	<div class="Dima">
+		<script type="text/JavaScript">
+			var eage = prompt("Сколько вам лет?");
+			var year = prompt("Ваш год рождения");
+				while (eage >=0){
+					if (eage == 0){
+						document.write("В " + year + " году ви родились");
+					}
+					else if (eage == 10){
+						document.write("В " + year + " году вам исполнилось 10  лет " + "<br/>");
+					}
+					else{
+						document.write("В " + year + " Вам било " + eage + "лет" + "<br/>");
+					}
+					
+					eage--;
+					year--;
+				}
+
+		</script>
+
+		
 	</div>
 </body>
 </html>
