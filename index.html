@@ -197,7 +197,7 @@
 			document.write("5646");
 		}
 */
-		var qwes = prompt("На какой планете ви шас????");
+/*		var qwes = prompt("На какой планете ви шас????");
 		var answer = "Земля";
 		var summ = qwes.toLowerCase();
 			if (answer == summ){
@@ -206,8 +206,48 @@
 			else{
 				document.write("ответ не верный");
 			}
-		</script>
-		</div>
+	*/
+		
+	/*	var mySite = "http://ruseller.com";
+		function poisk (Site){
+		if (Site.indexOf("rur") == -1 ){
+		document.write("не встречается в переменной подстрока ");
+		}
+		else{
+			document.write(" встречается в переменной подстрока ");
+		}
+		}
+		poisk(mySite);
+	*/
+	/*	var myStr = "Хороший день.";
+		var day = myStr.slice(8,12);
+		document.write(day);
+*/
+/*		var students = ["Илья","Greg", "Алина"];
 
+		for (var i = 0 ; i < students.length; i++) {
+
+
+		
+		for (var j = 0; j < students[i].length; j++) {
+			if (students[i].charCodeAt(j) < 1040 || students[i].charCodeAt(j) > 1103)
+				document.write("Не рускі -" + students[i].charAt(j) + "<br/>");
+			}
+		}
+*/
+		var forTesting = "8 пингвинов и 9 карасей.";
+		function test (pro){
+			var regV = /^\d/;
+			if (pro.search (regV) == -1){
+			document.write("ne ok");
+			} 
+			else {
+				document.write("ok");
+			}
+		} 
+
+		test(forTesting);
+
+		</script>
 </body>
 </html>
